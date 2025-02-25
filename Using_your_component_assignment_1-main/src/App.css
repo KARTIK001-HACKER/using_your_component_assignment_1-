@@ -1,0 +1,22 @@
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.books-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; /* Allows horizontal scrolling if needed */
+  padding: 10px;
+}
+
+.book-card {
+  min-width: 250px; /* Ensures each book card takes some space */
+  flex-shrink: 0; /* Prevents shrinking when there are many books */
+}
